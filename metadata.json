@@ -4,5 +4,6 @@
   "shell-version": ["45", "46", "47", "48", "49", "50"],
   "url": "https://github.com/v-dimitrov/gnome-shell-extension-stealmyfocus",
   "uuid": "steal-my-focus-window@steal-my-focus-window",
-  "license": "GPL-3.0-or-later"
+  "license": "GPL-3.0-or-later",
+  "settings-schema": "org.gnome.shell.extensions.steal-my-focus-window"
 }

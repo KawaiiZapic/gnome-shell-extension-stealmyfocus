@@ -1,0 +1,14 @@
+<schemalist>
+  <schema id="org.gnome.shell.extensions.steal-my-focus-window" path="/org/gnome/shell/extensions/steal-my-focus-window/">
+    <key name="whitelist-mode" type="b">
+      <default>false</default>
+      <summary>Whitelist mode</summary>
+      <description>If true, only listed windows are allowed to be auto focused. If false (default), all windows are allowed except those listed.</description>
+    </key>
+    <key name="window-list" type="as">
+      <default>[]</default>
+      <summary>Window list</summary>
+      <description>List of window WM_CLASS patterns to match. Matching is case-insensitive and checks if the pattern appears anywhere in the WM_CLASS string.</description>
+    </key>
+  </schema>
+</schemalist>
